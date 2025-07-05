@@ -1,3 +1,5 @@
+package question_two;
+
 import java.util.List;
 
 public class QuestionTwo {
@@ -11,7 +13,7 @@ public class QuestionTwo {
         G.addEdge(3, 4);
         G.addEdge(4, 5);
 
-        System.out.println("Graph: ");
+        System.out.println("question_two.Graph: ");
         System.out.println(G);
 
         List<Integer> topSort = LongestPathInDAG.topologicalSort(G);
